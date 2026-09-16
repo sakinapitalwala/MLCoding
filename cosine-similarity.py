@@ -1,5 +1,8 @@
 import numpy as np
 def top_k_cosine_similarity(query_vec, doc_matrix, k=3):
+    '''Compute the top k cosine similarity scores between 
+        a query vector and a document matrix.
+    '''
     dot_product = np.dot(doc_matrix, query_vec)
     mag_query_vec = np.sqrt(np.sum(query_vec ** 2))
     mag_doc_matrix = np.sqrt(np.sum(doc_matrix ** 2, axis = 1))
