@@ -9,6 +9,7 @@ This repository contains a compact set of Python examples covering common machin
 - [cosine-similarity.py](cosine-similarity.py) — Computes cosine similarity between a query vector and a matrix of document vectors, returning the top-k matches.
 - [event_stream_sessionization.py](event_stream_sessionization.py) — Segments a user event stream into sessions using time gaps and assigns session IDs, durations, and event counts.
 - [masked_attention_calculation.py](masked_attention_calculation.py) — Implements a simplified self-attention mechanism with optional causal masking and a softmax helper.
+- [multi_head_attention_split_and_merge.py](multi_head_attention_split_and_merge.py) — Demonstrates splitting a feature tensor into multiple attention heads and merging it back, a core operation in multi-head attention.
 - [reciprocal_rank_fusion.py](reciprocal_rank_fusion.py) — Fuses dense and sparse retrieval rankings using the reciprocal rank fusion (RRF) scoring formula.
 - [sliding_window_chunking.py](sliding_window_chunking.py) — Splits text into overlapping sliding-window chunks for token-windowed processing.
 - [softmax_with_temperature.py](softmax_with_temperature.py) — Applies temperature-scaled softmax to logits for probabilistic output control.
